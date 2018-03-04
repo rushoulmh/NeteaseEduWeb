@@ -31,6 +31,9 @@ body{background-color:#fff;}
 .f-fr{float:right;}
 .f-pr{position:relative;}
 .f-prz{position:relative;zoom:1;}
+.f-dn{display:none;}
+.f-dib{display:inline-block;*display:block;*zoom:1;}
+.f-db{display:block;}
 .f-ovh{overflow:hidden;}
 .f-ff0{font-family:arial,\5b8b\4f53;}
 .f-ff1{font-family:arial,\5fae\8f6f\96c5\9ed1;}
@@ -42,7 +45,7 @@ body{background-color:#fff;}
 .f-wsn{word-wrap:normal;white-space:nowrap;}
 .f-pre{overflow:hidden;text-align:left;white-space:pre-wrap;word-wrap:break-word;word-break:break-all;}
 .f-wwb{white-space:normal;word-wrap:break-word;word-break:break-all;}
-.f-ti1{overflow:hidden;text-indent:-30000px;}
+.f-ti1{overflow:hidden;text-indent:-10000px;}
 .f-ti2{text-indent:2em;}
 .f-lhn{line-height:normal;}
 .f-tdu,.f-tdu:hover{text-decoration:underline;}
@@ -54,6 +57,7 @@ body{background-color:#fff;}
 .f-csm{cursor:move;}
 .f-center{position:absolute;top:50%:left:50%;
     -webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
+.f-center-h{position:absolute;left:50%;}
 
 /**
  * Status
